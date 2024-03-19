@@ -4,7 +4,7 @@ test.describe('Check initial state', () => {
   test('Check elements category', async ({ page }) => {
   await page.goto('/', { waitUntil: 'domcontentloaded' });
   const actualElementsArray: string[] = [];
-  const expectedElementsExpanded: string[] = ['Elements', 'Forms', 'Alerts, Frame & Windows', 'Widget', 'Interactions', 'Book Store Application'];
+  const expectedElementsExpanded: string[] = ['Elements', 'Forms', 'Alerts, Frame & Windows', 'Widgets', 'Interactions', 'Book Store Application'];
   const elementsCategoryCount = await page.locator('.card-body').count();
 
   for (let index = 0; index < elementsCategoryCount; index++) {
