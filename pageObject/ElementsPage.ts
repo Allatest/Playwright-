@@ -43,12 +43,7 @@ export default class ElementsPage extends BasePage {
     }
 }
 
-
-    
-    //await page.getByRole('button').nth(2).click();
-    //await expect(page.getByRole('button').nth(2)).toContainText('Click Me');
-    //await page.waitForSelector('text="You have done a dynamic click"', { state: 'visible' });
-
+ 
 
 
    
